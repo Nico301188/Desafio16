@@ -1,0 +1,73 @@
+section {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    justify-content: center;
+    justify-items: center;
+}
+
+input {
+
+    margin: 0.5rem 0;
+}
+
+button {
+    margin: 0.5rem 0;
+}
+
+.d-content{
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.s-head{
+    display: flex;
+    padding: 0 1rem;
+    width: 100%;
+    border: 0.1rem solid black;
+}
+
+.s-head,
+strong {
+    display: flex;
+    padding: 0 1rem;
+    width: 100%;
+}
+.d-ul{
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+}
+
+
+li {
+    display: flex;
+
+}
+
+.d-dat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid black;
+}
+
+.d-list {
+    width: 100%;
+    display: grid;
+}
+
+.d-button {
+    display: flex;
+}

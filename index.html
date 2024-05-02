@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Usuarios</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Lista de Contactos</h1>
+        </div>
+        
+        <!-- Formulario para agregar o actualizar un contacto -->
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nombre" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <div>
+                <label for="birthdate">Fecha de nacimiento</label> <br>
+                <input type="date" id="birthdate" required><br>
+            </div>
+            <input type="hidden" id="contactId"> <!-- Para almacenar el ID del contacto en caso de actualización -->
+            <button type="submit" id="submitButton">Agregar</button>
+        </form>
+        
+        <!-- Lista de contactos existentes -->
+        <div class="d-content">
+            <div class="s-head">
+                <strong>Nombre</strong>
+                <strong>-</strong>
+                <strong>Email</strong>
+                <strong>-</strong>
+                <strong>Cumpleaños</strong>
+                <strong>-</strong>
+                <strong>Acciones</strong>
+            </div>
+            <div class="d-ul">
+                <ul id="contactList"></ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script> <!-- Enlazar el archivo JavaScript -->
+</body>
+</html>
